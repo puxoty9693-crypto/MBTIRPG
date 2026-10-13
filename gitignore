@@ -1,0 +1,84 @@
+# Unity .gitignore
+# Put this file next to the Assets / Library / ProjectSettings folders.
+# Folder patterns have no leading "/" so they still match
+# even if the Git repository was created one folder above the project.
+
+# ---- Unity generated folders ----
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+.utmp/
+*.log
+
+# ---- Blender backups ----
+*.blend1
+*.blend1.meta
+
+# ---- IDE / editor ----
+**/[Aa]ssets/Plugins/Editor/JetBrains*
+.idea/
+.vs/
+.vscode/
+.gradle/
+.consulo/
+ExportedObj/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.DotSettings.user
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# ---- Crash / runtime files ----
+sysinfo.txt
+mono_crash.*
+crashlytics-build.properties
+
+# ---- Build outputs ----
+*.apk
+*.aab
+*.unitypackage
+*.unitypackage.meta
+*.app
+
+# ---- Tests / Addressables / Visual Scripting ----
+InitTestScene*.unity*
+ServerData/
+**/[Aa]ssets/StreamingAssets/aa*
+**/[Aa]ssets/AddressableAssetsData/link.xml*
+**/[Aa]ssets/Addressables_Temp*
+**/[Aa]ssets/AddressableAssetsData/*/*.bin*
+**/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db
+**/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db.meta
+**/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers
+**/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers.meta
+**/[Aa]ssets/[Ss]ceneDependencyCache*
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ---- Plastic SCM / Perforce ----
+.plastic/
+.p4ignore
+.p4config
