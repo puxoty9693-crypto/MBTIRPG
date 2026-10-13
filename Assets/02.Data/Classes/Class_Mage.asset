@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5ddb749bb081cd4f978ee4dc332277a, type: 3}
+  m_Name: Class_Mage
+  m_EditorClassIdentifier: Assembly-CSharp::ClassDefinitionSO
+  id: Mage
+  displayName: "\uB9C8\uBC95\uC0AC"
+  summary: 
+  icon: {fileID: 0}
+  matchPriority: 1
+  range: 1
+  element: 1
+  style: 1
+  role: 0
+  method: 1
+  maxHP: 90
+  attackPower: 30
+  moveSpeed: 6
+  attackCooldown: 0.6
+  defenseReduction: 0
+  basicAttack: 1
+  dashIsTeleport: 1
+  prefab: {fileID: 0}
+  passiveText: 
+  skillText: 
+  ultimateText: 
